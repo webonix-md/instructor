@@ -257,7 +257,7 @@ p { margin: 0; }
 /* 4. машина */
 .car { display: grid; grid-template-columns: 1.05fr 1fr; gap: 72px; align-items: center; }
 .car__photos { position: relative; padding-bottom: 70px; }
-.car__p1 { width: 72%; aspect-ratio: 4/5; object-fit: cover; border-radius: var(--r-card); }
+.car__p1 { width: 72%; aspect-ratio: 4/5; object-fit: cover; object-position: 75% 50%; border-radius: var(--r-card); }
 .car__p2 {
   position: absolute; right: 0; bottom: 0; width: 46%; aspect-ratio: 3/4;
   object-fit: cover; object-position: 30% 50%;
