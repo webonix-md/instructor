@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Instructor auto calm în Chișinău — cutie manuală, Skoda Fabia</title>
+  <meta name="description" content="Lecții individuale de conducere în Chișinău: categoria B, cutie manuală, Skoda Fabia. Cu răbdare, fără țipete, la ora potrivită pentru dumneavoastră. De la 400 lei pe lecție.">
+  <meta name="theme-color" content="#0B1220">
+  <link rel="icon" href="img/logo/mark.svg" type="image/svg+xml">
+  <link rel="alternate" hreflang="ru" href="index.html">
+  <link rel="alternate" hreflang="ro" href="ro.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;500;600;700;800&family=Golos+Text:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<!-- Дорожные знаки: рисуем один раз, используем через <use> -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- Главная дорога -->
+    <symbol id="s-main" viewBox="0 0 100 100">
+      <rect x="15" y="15" width="70" height="70" rx="4" transform="rotate(45 50 50)" fill="#fff" stroke="#1d232b" stroke-width="1.5"/>
+      <rect x="27" y="27" width="46" height="46" rx="2" transform="rotate(45 50 50)" fill="#F4C430"/>
+    </symbol>
+    <!-- Круговое движение -->
+    <symbol id="s-round" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="48" fill="#fff"/>
+      <circle cx="50" cy="50" r="45" fill="#1F5BB8"/>
+      <g id="s-round-arrow">
+        <path d="M50 24 A26 26 0 0 1 72.5 37" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+        <path d="M78 31 L76 47 L64 38 Z" fill="#fff"/>
+      </g>
+      <use href="#s-round-arrow" transform="rotate(120 50 50)"/>
+      <use href="#s-round-arrow" transform="rotate(240 50 50)"/>
+    </symbol>
+    <!-- Стоянка -->
+    <symbol id="s-parking" viewBox="0 0 100 100">
+      <rect x="4" y="4" width="92" height="92" rx="10" fill="#fff"/>
+      <rect x="9" y="9" width="82" height="82" rx="7" fill="#1F5BB8"/>
+      <text x="50" y="73" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="62" fill="#fff">P</text>
+    </symbol>
+    <!-- Пешеходный переход — «кому подходит»: для всех, кто идёт к правам -->
+    <symbol id="s-cross" viewBox="0 0 100 100">
+      <rect x="4" y="4" width="92" height="92" rx="8" fill="#fff"/>
+      <rect x="9" y="9" width="82" height="82" rx="5" fill="#1F5BB8"/>
+      <path d="M50 17 L84 78 H16 Z" fill="#fff"/>
+      <g fill="#111">
+        <circle cx="52" cy="38" r="4"/>
+        <path d="M50 43 l-5 13 l-6 10 h4 l5 -8 l3 3 l-1 9 h4 l1 -11 l-3 -5 l2 -6 l4 5 h6 v-3 h-5 l-5 -7 z"/>
+      </g>
+      <g fill="#111"><rect x="24" y="70" width="6" height="5"/><rect x="34" y="70" width="6" height="5"/><rect x="60" y="70" width="6" height="5"/><rect x="70" y="70" width="6" height="5"/></g>
+    </symbol>
+    <!-- Ограничение скорости — у нас это цена -->
+    <symbol id="s-400" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="48" fill="#fff"/>
+      <circle cx="50" cy="50" r="41" fill="#fff" stroke="#D7261E" stroke-width="12"/>
+      <text x="50" y="58" text-anchor="middle" font-family="Geologica, Arial, sans-serif" font-weight="800" font-size="27" fill="#111">400</text>
+      <text x="50" y="72" text-anchor="middle" font-family="Golos Text, Arial, sans-serif" font-weight="600" font-size="9" fill="#111">lei</text>
+    </symbol>
+    <!-- Конец всех ограничений -->
+    <symbol id="s-end" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="48" fill="#fff"/>
+      <circle cx="50" cy="50" r="45" fill="#fff" stroke="#111" stroke-width="2"/>
+      <g stroke="#111" stroke-width="3"><path d="M22 70 L70 22"/><path d="M27 76 L76 27"/><path d="M33 80 L80 33"/><path d="M18 64 L64 18"/></g>
+    </symbol>
+    <!-- Пункт информации -->
+    <symbol id="s-info" viewBox="0 0 100 100">
+      <rect x="4" y="4" width="92" height="92" rx="8" fill="#fff"/>
+      <rect x="9" y="9" width="82" height="82" rx="5" fill="#1F5BB8"/>
+      <rect x="22" y="22" width="56" height="56" rx="3" fill="#fff"/>
+      <circle cx="50" cy="35" r="6" fill="#111"/>
+      <rect x="44" y="45" width="12" height="25" rx="2" fill="#111"/>
+    </symbol>
+    <!-- Телефон -->
+    <symbol id="s-phone" viewBox="0 0 100 100">
+      <rect x="4" y="4" width="92" height="92" rx="8" fill="#fff"/>
+      <rect x="9" y="9" width="82" height="82" rx="5" fill="#1F5BB8"/>
+      <rect x="22" y="22" width="56" height="56" rx="3" fill="#fff"/>
+      <path transform="translate(30 30) scale(1.65)" fill="#111" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- «Маршрут» прокрутки справа (только на ПК) -->
+<!-- <div class="trip" aria-hidden="true"><div class="trip__road"><i class="trip__car"></i></div></div> -->
+
+<header class="top">
+  <div class="wrap top__in">
+    <a class="logo" href="#">
+      <img src="img/logo/mark.svg" alt="" width="40" height="40">
+      <span><b>Instructor Auto</b><small>Chișinău · categoria B</small></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#why">De ce cu mine</a>
+      <a href="#route">Cum învățăm</a>
+      <a href="#car">Mașina</a>
+      <a href="#price">Prețuri</a>
+      <a href="#faq">Întrebări</a>
+    </nav>
+    <div class="lang"><a href="index.html" hreflang="ru" lang="ru">RU</a><a href="ro.html" aria-current="page">RO</a></div>
+    <a class="btn btn--light top__call" data-tel><span class="ico-phone"></span><span data-text="phone"></span></a>
+    <button class="burger" id="burger" aria-label="Meniu" aria-expanded="false"><i></i><i></i></button>
+  </div>
+</header>
+
+<main>
+
+  <!-- 1. ГЛАВНЫЙ ЭКРАН: видео из салона, внизу тает в фон -->
+  <section class="hero">
+    <div class="hero__media" aria-hidden="true">
+      <video autoplay muted loop playsinline preload="auto" poster="video/drive-poster.jpg">
+        <source src="video/drive.webm" type="video/webm">
+        <source src="video/drive.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="wrap hero__in">
+      <div class="hud reveal">
+        <span><b>MT</b> manuală</span>
+        <span><b>B</b> categoria</span>
+        <span><b>1:1</b> individual</span>
+      </div>
+      <!-- Titlul anterior: „Urcați la volan. / Frica trece repede.” -->
+      <h1 class="hero__title reveal">
+        <span>Instructor auto calm</span>
+        <span class="hero__accent">în&nbsp;Chișinău</span>
+      </h1>
+      <p class="hero__lead reveal">Lecții individuale pe cutie manuală, Skoda Fabia. Fără țipete și nervi: explic până devine clar și mă adaptez la programul dumneavoastră. De la <span data-text="priceFrom"></span> lei pe lecție.</p>
+      <div class="hero__cta reveal">
+        <a class="btn btn--sign btn--lg" data-tel><span class="ico-phone"></span>Programați-vă la lecție</a>
+        <a class="btn btn--glass btn--lg" data-viber>Scrieți pe Viber</a>
+      </div>
+    </div>
+    <a class="go" href="#why"><span>Pornim</span><i></i></a>
+  </section>
+
+  <!-- 2. ПОЧЕМУ СО МНОЙ (сплошной фон) -->
+  <section class="sec" id="why">
+    <div class="wrap">
+      <div class="head reveal">
+        <div class="sign" data-sign><svg><use href="#s-main"/></svg></div>
+        <div>
+          <p class="head__kicker">Drumul cu prioritate — al dumneavoastră</p>
+          <h2>De ce cu mine învățați fără stres</h2>
+        </div>
+      </div>
+      <div class="cards">
+        <article class="card card--wide reveal">
+          <span class="card__n">01</span>
+          <h3>Răbdare în loc de țipete</h3>
+          <p>Majoritatea elevilor vin cu aceeași frică: „o să țipe la mine”. Aici nimeni nu țipă. Greșelile la primele lecții sunt normale: analizăm calm ce s-a întâmplat și încercăm din nou.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card__n">02</span>
+          <h3>Toată atenția — pentru dumneavoastră</h3>
+          <p>Doar lecții individuale. Ritmul și programul sunt adaptate pentru dumneavoastră, nu pentru o grupă.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card__n">03</span>
+          <h3>La ora potrivită pentru dumneavoastră</h3>
+          <p>Lucrați sau studiați — stabilim împreună ziua și ora.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card__n">04</span>
+          <h3>Scopul — să luați examenul</h3>
+          <p>Ne pregătim pe poligon și pe traseele din oraș pe care se susține examenul.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. КАК УЧИМСЯ (дорога «в окне») -->
+  <section class="sec sec--road" id="route">
+    <div class="road-media" aria-hidden="true">
+      <video autoplay muted loop playsinline preload="none" poster="video/drive-poster.jpg">
+        <source src="video/drive.webm" type="video/webm">
+        <source src="video/drive.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="wrap">
+      <div class="head reveal">
+        <div class="sign" data-sign><svg><use href="#s-round"/></svg></div>
+        <div>
+          <p class="head__kicker">Pas cu pas, fără grabă</p>
+          <h2>Cum decurge instruirea</h2>
+        </div>
+      </div>
+      <ol class="steps">
+        <li class="glass reveal"><b>1</b><div><h3>Cunoașterea mașinii</h3><p>Poziția la volan, oglinzile, pedalele, ambreiajul. Pornim și oprim pe o platformă liniștită.</p></div></li>
+        <li class="glass reveal"><b>2</b><div><h3>Străzi liniștite</h3><p>Schimbarea treptelor de viteză, virajele, intersecțiile fără trafic intens.</p></div></li>
+        <li class="glass reveal"><b>3</b><div><h3>Orașul</h3><p>Sensuri giratorii, schimbarea benzii, pante, trafic intens, parcare — acolo unde de obicei e frică.</p></div></li>
+        <li class="glass reveal"><b>4</b><div><h3>Traseele de examen</h3><p>Exersăm poligonul și străzile pe care se susține examenul. Analizăm greșelile tipice.</p></div></li>
+        <li class="glass reveal steps__finish"><b>✓</b><div><h3>Examenul</h3><p>Vă așezați la volan cu încredere, nu „la noroc”.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 4. МАШИНА (сплошной фон) -->
+  <section class="sec sec--alt" id="car">
+    <div class="wrap car">
+      <div class="car__photos reveal">
+        <img class="car__p1" src="img/car/fabia-front-tall.jpg" alt="Mașina de școală Skoda Fabia, albastră" loading="lazy">
+        <img class="car__p2" src="img/car/fabia-interior.jpg" alt="Interiorul Skoda Fabia: volanul și cutia de viteze manuală" loading="lazy">
+      </div>
+      <div class="car__text">
+        <div class="head head--stack reveal">
+          <div class="sign" data-sign><svg><use href="#s-parking"/></svg></div>
+          <div>
+            <p class="head__kicker">Mașina dumneavoastră de școală</p>
+            <h2>Skoda Fabia cu cutie manuală</h2>
+          </div>
+        </div>
+        <p class="car__lead reveal">O mașină compactă, ușor de condus. Pe ea simțiți mai repede dimensiunile mașinii și nu vă mai e frică de parcare.</p>
+        <ul class="specs reveal">
+          <li><span>Cutia de viteze</span><b>Manuală</b></li>
+          <li><span>Categoria</span><b>B</b></li>
+          <li><span>Siguranță</span><b>Pedale duble</b></li>
+          <li><span>Format</span><b>Individual</b></li>
+        </ul>
+        <p class="note reveal">Dacă învățați pe manuală, vă descurcați ușor și cu automată. Invers — e mai greu.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. КОМУ ПОДХОДИТ (дорога «в окне») -->
+  <section class="sec sec--road">
+    <div class="road-media" aria-hidden="true">
+      <video autoplay muted loop playsinline preload="none" poster="video/drive-poster.jpg">
+        <source src="video/drive.webm" type="video/webm">
+        <source src="video/drive.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="wrap">
+      <div class="head reveal">
+        <div class="sign" data-sign><svg><use href="#s-cross"/></svg></div>
+        <div>
+          <p class="head__kicker">Din orice punct de pornire</p>
+          <h2>Cui i se potrivesc lecțiile</h2>
+        </div>
+      </div>
+      <div class="who">
+        <div class="glass who__item reveal"><h3>După școala auto</h3><p>Orele n-au fost de ajuns — mai adăugăm practică, până vă simțiți sigur pe volan.</p></div>
+        <div class="glass who__item reveal"><h3>De la zero</h3><p>N-ați stat niciodată la volan — începem de la bun început.</p></div>
+        <div class="glass who__item reveal"><h3>Aveți permis, dar vă e frică</h3><p>N-ați condus de mult sau vă temeți de oraș — vă redăm încrederea.</p></div>
+        <div class="glass who__item reveal"><h3>Examenul e aproape</h3><p>Ne pregătim țintit pe poligon și pe trasee.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. ЦЕНЫ (сплошной фон) -->
+  <section class="sec" id="price">
+    <div class="wrap">
+      <div class="head reveal">
+        <div class="sign sign--big" data-sign><svg><use href="#s-400"/></svg></div>
+        <div>
+          <p class="head__kicker">Singura limită — prețul</p>
+          <h2>Prețuri</h2>
+        </div>
+      </div>
+      <div class="prices" id="prices"></div>
+      <p class="prices__note reveal">Plata pentru fiecare lecție, fără costuri ascunse. Programul exact îl discutăm la telefon.</p>
+    </div>
+  </section>
+
+  <!-- 7. ОТЗЫВЫ (дорога «в окне») -->
+  <section class="sec sec--road">
+    <div class="road-media" aria-hidden="true">
+      <video autoplay muted loop playsinline preload="none" poster="video/drive-poster.jpg">
+        <source src="video/drive.webm" type="video/webm">
+        <source src="video/drive.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="wrap">
+      <div class="head reveal">
+        <div class="sign" data-sign><svg><use href="#s-end"/></svg></div>
+        <div>
+          <p class="head__kicker">Sfârșitul tuturor restricțiilor</p>
+          <h2>Ce spun elevii</h2>
+        </div>
+      </div>
+      <div class="reviews">
+        <figure class="glass review reveal">
+          <span class="review__demo">exemplu</span>
+          <blockquote>Mă temeam de ambreiaj ca de foc. După câteva lecții porneam liniștită din rampă. Nu a ridicat vocea niciodată.</blockquote>
+          <figcaption><b>Ana</b> · a luat examenul din prima</figcaption>
+        </figure>
+        <figure class="glass review reveal">
+          <span class="review__demo">exemplu</span>
+          <blockquote>Am luat ore suplimentare după școala auto. Am trecut prin toate locurile grele ale traseului — la examen totul mi-a fost cunoscut.</blockquote>
+          <figcaption><b>Dumitru</b> · lecții suplimentare</figcaption>
+        </figure>
+        <figure class="glass review reveal">
+          <span class="review__demo">exemplu</span>
+          <blockquote>Aveam permis de 5 ani, dar nu ieșeam în oraș. Acum duc singură copilul la grădiniță.</blockquote>
+          <figcaption><b>Elena</b> · după o pauză</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. ВОПРОСЫ (сплошной фон) -->
+  <section class="sec sec--alt" id="faq">
+    <div class="wrap faq-wrap">
+      <div class="head head--stack reveal">
+        <div class="sign" data-sign><svg><use href="#s-info"/></svg></div>
+        <div>
+          <p class="head__kicker">Punct de informare</p>
+          <h2>Întrebări frecvente</h2>
+        </div>
+      </div>
+      <div class="faq reveal">
+        <details open>
+          <summary>Cât durează o lecție?</summary>
+          <p>Lecția standard durează 90 de minute, ca la școlile auto. Durata exactă o stabilim la programare.</p>
+        </details>
+        <details>
+          <summary>De câte lecții e nevoie ca să învăț?</summary>
+          <p>Depinde de nivelul cu care veniți. După prima lecție vă spun sincer de câte veți avea nevoie.</p>
+        </details>
+        <details>
+          <summary>De unde începem lecția?</summary>
+          <p>Locul de întâlnire îl stabilim la telefon — astfel încât să vă fie comod să ajungeți.</p>
+        </details>
+        <details>
+          <summary>Pot începe cu o lecție de probă?</summary>
+          <p>Da. Luați o lecție — vedeți dacă vi se potrivește formatul și abia apoi decideți.</p>
+        </details>
+        <details>
+          <summary>Aveți și mașină cu cutie automată?</summary>
+          <p>Nu, lecțiile sunt doar pe cutie manuală. În schimb, după ea, automata se învață într-o seară.</p>
+        </details>
+        <details>
+          <summary>Cum mă pot programa?</summary>
+          <p>Sunați sau scrieți pe Viber/WhatsApp — alegem împreună prima zi și ora.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. ФИНАЛ (дорога «в окне») -->
+  <section class="sec sec--road sec--final">
+    <div class="road-media" aria-hidden="true">
+      <video autoplay muted loop playsinline preload="none" poster="video/drive-poster.jpg">
+        <source src="video/drive.webm" type="video/webm">
+        <source src="video/drive.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="wrap">
+      <div class="glass final reveal">
+        <div class="sign" data-sign><svg><use href="#s-phone"/></svg></div>
+        <h2>Prima lecție — chiar în&nbsp;această săptămână</h2>
+        <p>Sunați-mă, spuneți-mi de unde porniți și alegem ora potrivită.</p>
+        <div class="final__cta">
+          <a class="btn btn--sign btn--lg" data-tel><span class="ico-phone"></span><span data-text="phone"></span></a>
+          <a class="btn btn--glass btn--lg" data-viber>Viber</a>
+          <a class="btn btn--glass btn--lg" data-whatsapp>WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__in">
+    <span>© <span id="year"></span> Instructor Auto · instructor auto privat, Chișinău</span>
+    <a data-tel><span data-text="phone"></span></a>
+  </div>
+</footer>
+
+<div class="sticky-call">
+  <a class="btn btn--sign" data-tel><span class="ico-phone"></span>Sunați</a>
+  <a class="btn btn--glass" data-viber>Viber</a>
+</div>
+
+<script src="js/site-data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/motion.js"></script>
+</body>
+</html>

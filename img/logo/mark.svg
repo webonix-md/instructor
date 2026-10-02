@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Цвета как у акцента сайта (#34C78A) и фона (#0B1220). Прежний синий вариант: mark-blue.svg -->
+  <rect width="48" height="48" rx="14" fill="#34C78A"/>
+  <circle cx="24" cy="24" r="13" stroke="#0B1220" stroke-width="3.2"/>
+  <circle cx="24" cy="25" r="3.4" fill="#0B1220"/>
+  <path d="M11.5 22.5c4.2-1.6 8.3-2.3 12.5-2.3s8.3.7 12.5 2.3" stroke="#0B1220" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M24 28.5V37" stroke="#0B1220" stroke-width="3.2" stroke-linecap="round"/>
+</svg>
